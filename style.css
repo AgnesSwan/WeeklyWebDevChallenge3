@@ -7,9 +7,14 @@ body{
   box-sizing: border-box;
   margin: 0;
 }
+a{
+  text-decoration: none;
+  color: white;
+  fill-opacity: 1;
+}
 
 .nav {
-  position: absolute;
+ 
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -17,7 +22,6 @@ body{
   top:0;
   height: 115px;
   width:100%;
-  background-color: yellow;
   }
 .space{
   flex:1;
@@ -35,5 +39,62 @@ li a{
  color: #777777
 }
 li a:hover{
+  color: #222222;
+}
+/*TITLE*/
+.title_container{
+  background-image: url(./img/title_back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 530px;
+}
+.title_container .shadow_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000000;
+  background-size: cover;
+  opacity: 75%;
+  height: 100%;  
+}
+
+.text_title h1 {
+  font-size: 60px;
+  letter-spacing: -3px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  opacity: 100%;
+}
+.text_title p{
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #cccccc;
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+  text-align: center;
+}
+.portfolio_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #7cc576;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 43px;
+  color: #ffffff;
+  font-weight: 700;
+  filter: drop-shadow(0px 1px 0.5px rgba(0,0,0,0.7));
+}
+.portfolio_btn:hover{
+  background-color: #ffffff;
+}
+.portfolio_btn a:hover{
   color: #222222;
 }
