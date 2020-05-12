@@ -98,3 +98,54 @@ li a:hover{
 .portfolio_btn a:hover{
   color: #222222;
 }
+
+/*SERVICES */
+.services_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 535px;
+  margin: 0px 205px;
+}
+.services_text h1 {
+  font-size: 40px;
+  letter-spacing: -2px;
+  line-height: 75px;
+  color: #222222;
+  font-weight: 700;
+  text-align: center;
+}
+.services_text p{
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  text-align: center;
+}
+.services_elem {
+  display: flex;
+  flex-direction: row;
+  padding-top: 65px;
+}
+.services_elem .services_elem_text{
+  width: 33.33%;
+  text-align: center;
+  padding: 25px;
+}
+.services_elem_text h1 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 75px;
+  color: #222222;
+  font-weight: 700;
+}
+.services_elem_text p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  text-align: center;
+}
