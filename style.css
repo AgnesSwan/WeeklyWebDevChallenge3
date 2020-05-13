@@ -149,3 +149,98 @@ li a:hover{
   font-weight: 400;
   text-align: center;
 }
+/* RELAX */
+.relax_container{
+  display: flex;
+  height: 616px;
+  width: 100%;
+}
+.relax_container .back1{
+  background-image: url(./img/relax_back2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33%;
+}
+.relax_container .back2 {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-image: url(./img/relax_back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 67%;
+}
+.shadow_relax{
+  position: relative;
+  display: flex;
+  float:right;
+  width: 100%;
+  height: 616px;
+  background-color: #000000;
+  opacity: 75%;
+  z-index: 1;
+}
+ .details_relax {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+.text_relax {
+  width: 650px;
+  
+}
+.text_relax h1{
+  padding-bottom: 45px;
+  font-size: 40px;
+  letter-spacing: -2px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.text_relax p {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #cccccc;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+.list_relax{
+  padding-top: 20px;
+  width: 650px;
+}
+.list_relax_elem{
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #cccccc;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+.learn_more_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 168px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #7cc576;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 43px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  filter: drop-shadow(0px 1px 0.5px rgba(0,0,0,0.7));
+}
+.learn_more_btn:hover{
+  background-color: #ffffff;
+}
+.learn_more_btn a:hover {
+  color: #222222;
+}
