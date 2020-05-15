@@ -244,3 +244,109 @@ li a:hover{
 .learn_more_btn a:hover {
   color: #222222;
 }
+
+/* LATEST PROJECT */
+.project_container {
+  padding: 100px 230px;
+  display: flex;
+  
+  flex-direction: column;
+  background-image: url(./img/project_back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 824px;
+ 
+
+}
+
+.project_title h1{
+  font-size: 40px;
+  letter-spacing: -2px;
+  color: #222222;
+  font-weight: 700;
+  text-align: center;
+}
+.project_title p{
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  text-align: center;
+}
+.project_description{
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  }
+.project_description h1{
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #222222;
+  font-weight: 700;
+}
+.project_description p{
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+.project_details{
+  padding-top: 30px;
+}
+.project_details_elem{
+  padding-bottom: 15px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  width: 480px;
+}
+.project_details_elem img{
+  width: 66px;
+  height: 66px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+.project_details_elem .project_text_elem{
+  height: 66px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;  
+  flex-direction: column;
+}
+.project_details_elem .project_text_elem h1{
+  padding:0px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #222222;
+  font-weight: 700;
+}
+.project_details_elem .project_text_elem p{
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+.project_btn{
+  margin-top:25px;
+display: flex;
+flex-direction: row;
+}
+.project_btn a{
+  font-size: 16px;
+letter-spacing: 0px;
+color: #7cc576;
+font-family: "Montserrat";
+font-weight: 700;
+}
+.project_btn i{
+  width: 14px;
+  height: 11px;
+}
+.project_btn a:hover {
+  color: #222222;
+}
