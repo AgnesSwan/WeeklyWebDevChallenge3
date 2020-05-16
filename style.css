@@ -429,5 +429,90 @@ font-weight: 700;
 }
 
 
+/*CLIENTS*/
+.clients_container{
+  margin:0px 230px;
+  display: flex;
+  flex-direction: column;
+  height: 810px;
+  
+}
+.clients_title {
+  margin-top: 100px;
+  margin-bottom: 110px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.clients_title h1{
+  font-size: 40px;
+  letter-spacing: -2px;
+  color: #222222;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+}
+.clients_title p {
+  padding-top: 20px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  text-align: center;
+}
+.opinion_container{
+  height:220px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+.opinion_elem_round{
+  width: 220px;
+height: 220px;
+border-radius: 110px;
+background-color: #f9f9f9;
+border: 3px solid #ffffff;
+}
+.triangle_left_elem{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11.5px 20px 11.5px 0;
+  border-color: transparent #f9f9f9 transparent transparent;
 
+} 
+.triangle_right_elem {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11.5px 0 11.5px 20px;
+  border-color: transparent transparent transparent#f9f9f9;
+}
+.opinion_box{
+  padding: 40px;
+  width: 642px;
+height: 173px;
+background-color: #f9f9f9;
+padding-top: 35px;
+padding-bottom: 40px;
+}
+.opinion_box h1{
+  font-size: 22px;
+line-height: 28px;
+color: #777777;
+font-family: "Roboto Slab";
+font-weight: 400;
+text-align: center;
+}
+.opinion_box p{
+  
+  font-size: 18px;
+line-height: 36px;
+color: #7cc576;
+font-family: "Roboto Slab";
+font-weight: 400;
+text-align: center;
+}
