@@ -471,10 +471,10 @@ font-weight: 700;
 
 .opinion_elem_round{
   width: 220px;
-height: 220px;
-border-radius: 110px;
-background-color: #f9f9f9;
-border: 3px solid #ffffff;
+  height: 220px;
+  border-radius: 110px;
+  background-color: #f9f9f9;
+  border: 3px solid #ffffff;
 }
 .triangle_left_elem{
   width: 0;
@@ -494,73 +494,72 @@ border: 3px solid #ffffff;
 .opinion_box{
   padding: 40px;
   width: 642px;
-height: 173px;
-background-color: #f9f9f9;
-padding-top: 35px;
-padding-bottom: 40px;
+  height: 173px;
+  background-color: #f9f9f9;
+  padding-top: 35px;
+  padding-bottom: 40px;
 }
 .opinion_box h1{
   font-size: 22px;
-line-height: 28px;
-color: #777777;
-font-family: "Roboto Slab";
-font-weight: 400;
-text-align: center;
+  line-height: 28px;
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  text-align: center;
 }
 .opinion_box p{
-  
   font-size: 18px;
-line-height: 36px;
-color: #7cc576;
-font-family: "Roboto Slab";
-font-weight: 400;
-text-align: center;
+  line-height: 36px;
+  color: #7cc576;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  text-align: center;
 }
 
 
 /*CONTACT*/
 .contact_container{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 250px;
-background-color: #7cc576;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: #7cc576;
 }
 .contact_container h1{
   font-size: 40px;
-letter-spacing: -2px;
-color: #ffffff;
-font-family: "Montserrat";
-font-weight: 700;
-text-align: center;
+  letter-spacing: -2px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
 }
 .contact_btn {
   margin-top: 30px;
   display: flex;
-justify-content: center;
+  justify-content: center;
   width: 173px;
-height: 46px;
-border-radius: 4px;
-background-color: #7cc576;
-border: 3px solid #ffffff;
+  height: 46px;
+  border-radius: 4px;
+  background-color: #7cc576;
+  border: 3px solid #ffffff;
 
 }
 .contact_btn a{
   font-size: 18px;
-letter-spacing: 0px;
-line-height: 41px;
-color: #ffffff;
-font-family: "Montserrat";
-font-weight: 700;
-text-align: center;
+  letter-spacing: 0px;
+  line-height: 41px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
 }
 .contact_btn:hover{
- width: 173px;
-height: 46px;
-border-radius: 4px;
-background-color: #ffffff;
-border: 3px solid #ffffff;
+  width: 173px;
+  height: 46px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 3px solid #ffffff;
 }
 .contact_btn a:hover{
   font-size: 18px;
@@ -570,4 +569,17 @@ border: 3px solid #ffffff;
   font-family: "Montserrat";
   font-weight: 700;
   text-align: center;
+}
+
+/*LOGOS*/
+
+.logos_container{
+  padding: 60px 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 165px;
+}
+.logos_container img{
+  padding: 0 20px;
 }
