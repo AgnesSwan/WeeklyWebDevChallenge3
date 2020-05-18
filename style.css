@@ -583,3 +583,100 @@ font-weight: 700;
 .logos_container img{
   padding: 0 20px;
 }
+
+/*FOOTER*/
+.top_footer_container {
+  padding: 60px 230px;
+  display: flex;
+  height: 364px;
+  background-color: #222222;
+}
+.top_footer_container .top_footer_column{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 33.33%;
+}
+.top_footer_column h1{
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 50px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+
+.footer_line{
+  display: flex;
+  flex-direction: row;
+align-items:center;
+
+}
+.footer_line p{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  font-size: 16px;
+  color: #ececec;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+.footer_line i {
+display: flex;
+margin-bottom:-10px;
+  width: 22px;
+  height: 30px;
+  color: #ececec;
+  font-size: 30px;
+}
+
+
+
+
+.footer_bottom{
+  display:flex;
+  align-items: center;
+  padding: 0px 230px;
+  height: 100px;
+}
+.footer_bottom .footer_bottom_text{
+  width: 50%;
+  font-size: 14px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #555555;
+font-family: "Montserrat";
+font-weight: 400;
+}
+.footer_bottom .footer_bottom_logos {
+display: flex;
+flex-direction: row;
+  width:50%;
+}
+.round_back_logo{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0px 5px;
+width: 40px;
+height: 40px;
+border-radius: 20px;
+background-color: #222222;
+}
+.round_back_logo i{
+  color:#ffffff;
+
+}
+#twitter:hover{
+  background-color:#00aced;
+}
+#fb:hover{
+  background-color: #3b5998;
+}
+#pinterest:hover{
+  background-color: #cb2028;
+}
+#google:hover{
+  background-color: #da2713;
+}
