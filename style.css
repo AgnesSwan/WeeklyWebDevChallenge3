@@ -646,6 +646,10 @@ font-weight: 700;
 height: 100px;
 margin-left: 15px;
 }
+.latest_tweets p:hover {
+color:#7cc576;
+}
+
 
 
 

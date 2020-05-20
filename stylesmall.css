@@ -1,0 +1,42 @@
+@media only screen and (max-width: 750px){ 
+
+body{
+  margin-left: 0px;
+}
+
+
+/*HEADER*/
+.nav {
+  padding: 0px ;
+  display: flex;
+  flex-direction: column;
+}
+.nav .logo{
+  padding-top: 20px;
+}
+.space {
+  flex:0;
+}
+ul{
+  padding-inline-start: 0px;
+}
+li a{
+  padding: 5px;
+  width: 10%;
+  font-size: 12px;
+}
+/*MAIN*/
+/*TITLE*/
+.services_text h1{
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+
+
+
+.footer_top_container{
+  display: flex;
+  flex-direction: column;
+}
+}
